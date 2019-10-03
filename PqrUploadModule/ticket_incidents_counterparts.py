@@ -1,13 +1,19 @@
 
+from . import authorizations
 from authorizations import at,at_url,headers_at,encoded_u,encoded_u_td,td_base_url,get_headers
+
+import requests
+import json
+import pandas as pd
+
+from . import tickets
+from . import incidents
 
 from tickets import get_non_compl_tickets
 from incidents import get_all_non_compl_incidents_from_td
 from incidents import make_incident
 from tickets import create_new_ticket_in_at
-import requests
-import json
-import pandas as pd
+
 
 
 def list_at_ticket_for_counterparts():

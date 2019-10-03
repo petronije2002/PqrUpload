@@ -1,19 +1,22 @@
+from . import authorizations
 from authorizations import at,at_url,headers_at,encoded_u,encoded_u_td,td_base_url,get_headers
 
-from attachments import get_all_attachments_from_td
 import ast
 import requests
 import base64
 from attachments import make_attachment_in_at
 import xmltodict
-from tickets import get_non_compl_tickets
-from attachments import get_all_attachments_for_list_of_ids
 import io
-
 import pandas as pd 
-from tickets import get_list_of_at_tickets
 from suds.sax.text import Raw
 
+from . import tickets
+from . import attachments 
+
+from tickets import get_non_compl_tickets
+from attachments import get_all_attachments_for_list_of_ids
+from tickets import get_list_of_at_tickets
+from attachments import get_all_attachments_from_td
 from attachments import get_at_attachment_content
 
 def add_attachment_ids_to_dict():
