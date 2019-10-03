@@ -2,7 +2,7 @@ name = "PqrUploadModule"
 import sys
 sys.path.insert(0,".")
 
-from . import _scan
+from . import scan
 from . import action_notes_counterparts
 from . import api_functions
 from . import attachment_counterparts
