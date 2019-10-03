@@ -1,9 +1,9 @@
 README.md
 setup.py
-PqrUpload1_pkg_petronije.egg-info/PKG-INFO
-PqrUpload1_pkg_petronije.egg-info/SOURCES.txt
-PqrUpload1_pkg_petronije.egg-info/dependency_links.txt
-PqrUpload1_pkg_petronije.egg-info/top_level.txt
+PqrUpload4_pkg_petronije.egg-info/PKG-INFO
+PqrUpload4_pkg_petronije.egg-info/SOURCES.txt
+PqrUpload4_pkg_petronije.egg-info/dependency_links.txt
+PqrUpload4_pkg_petronije.egg-info/top_level.txt
 PqrUploadModule/__init__.py
 PqrUploadModule/_scan.py
 PqrUploadModule/actions.py
