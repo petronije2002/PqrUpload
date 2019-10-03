@@ -1,5 +1,9 @@
 README.md
 setup.py
+PqrUpload1_pkg_petronije.egg-info/PKG-INFO
+PqrUpload1_pkg_petronije.egg-info/SOURCES.txt
+PqrUpload1_pkg_petronije.egg-info/dependency_links.txt
+PqrUpload1_pkg_petronije.egg-info/top_level.txt
 PqrUploadModule/__init__.py
 PqrUploadModule/_scan.py
 PqrUploadModule/actions.py
@@ -18,7 +22,3 @@ PqrUploadModule/start_settings.py
 PqrUploadModule/ticket_incidents_counterparts.py
 PqrUploadModule/tickets.py
 PqrUploadModule/tickets_incidents_counterparts.py
-PqrUpload_pkg_petronije.egg-info/PKG-INFO
-PqrUpload_pkg_petronije.egg-info/SOURCES.txt
-PqrUpload_pkg_petronije.egg-info/dependency_links.txt
-PqrUpload_pkg_petronije.egg-info/top_level.txt

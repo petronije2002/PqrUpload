@@ -1,12 +1,11 @@
 Metadata-Version: 2.1
-Name: PqrUpload-pkg-petronije
-Version: 0.0.2
+Name: PqrUpload1-pkg-petronije
+Version: 0.0.2a0
 Summary: A small example package
-Home-page: UNKNOWN
+Home-page: https://github.com/petronije2002/PqrUpload/archive/0.0.2a.tar.gz
 Author: Example Author
 Author-email: petronije2002@gmail.com
 License: UNKNOWN
-Download-URL: https://github.com/petronije2002/PqrUpload/archive/0.0.2.tar.gz
 Description: # Example Package
         
         This is a simple example package. You can use
