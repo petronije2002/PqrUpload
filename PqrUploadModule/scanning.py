@@ -1,7 +1,7 @@
 from . import _scan
 from . import stasrt_settings
 
-import _scan
+import scan
 from start_settings import return_start_time
 
 
