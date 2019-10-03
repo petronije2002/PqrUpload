@@ -13,6 +13,3 @@ from . import scanning
 from . import start_settings
 from . import tickets_incidents_counterparts
 from . import tickets
-
-
-from scanning import Scan
