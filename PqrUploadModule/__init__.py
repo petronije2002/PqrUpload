@@ -8,7 +8,6 @@ from . import authorizations
 from . import contacts_update
 from . import contacts
 from . import incidents
-from . import last_scan.txt
 from . import notes
 from . import scanning
 from . import start_settings
@@ -16,3 +15,4 @@ from . import tickets_incidents_counterparts
 from . import tickets
 
 
+from scanning import Scan
