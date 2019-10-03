@@ -5,18 +5,18 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="PqrUpload-pkg-petronije",
-    version="0.0.1",
+    version="0.0.2",
     author="Example Author",
     author_email="petronije2002@gmail.com",
     description="A small example package",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/petronije2002/PqrUpload",
+    download_url="https://github.com/petronije2002/PqrUpload/archive/0.0.2.tar.gz",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires='<=3.6',
+    python_requires='==3.6',
 )
