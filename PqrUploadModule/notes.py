@@ -1,5 +1,5 @@
 # Here is the list of modules we need to import
-from . import authorizations
+# from . import authorizations
 
 from authorizations import at,at_url,headers_at,encoded_u,encoded_u_td,td_base_url,get_headers
 

@@ -1,8 +1,3 @@
-import sys
-sys.path.insert(0,".")
-
-from . import authorizations
-
 import atws
 import atws.monkeypatch.attributes
 import pandas as pd
@@ -18,17 +13,6 @@ import logging
 import re
 
 from authorizations import at,at_url,headers_at,encoded_u,encoded_u_td,td_base_url,get_headers
-
-
-
-
-from . import start_settings
-from . import tickets
-from . import attachments
-from . import incidents
-from .import notes
-from . import contacts
-
 
 from start_settings import return_start_time
 from tickets import create_new_ticket_in_at, get_list_of_at_tickets

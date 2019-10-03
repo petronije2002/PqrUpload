@@ -1,4 +1,4 @@
-from . import authorizations
+# from . import authorizations
 
 from authorizations import at,at_url,headers_at,encoded_u,encoded_u_td,td_base_url,get_headers
 
@@ -9,8 +9,8 @@ import pandas as pd
 import requests
 from suds.sax.text import Raw
 
-from . import incidents
-from . import tickets
+# from . import incidents
+# from . import tickets
 
 from incidents import get_all_non_compl_incidents_from_td
 from tickets import get_list_of_at_tickets

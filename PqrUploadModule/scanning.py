@@ -1,12 +1,10 @@
-from . import _scan
-from . import stasrt_settings
 
 import scan
 from start_settings import return_start_time
 
 
 
-class Scan(_scan.HelpScan):
+class Scan(scan.HelpScan):
     def __init__(self,account_id):
         self.account_id = account_id
 
