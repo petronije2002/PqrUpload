@@ -2,7 +2,7 @@ appnope==0.1.0
 atws==0.5.3
 azure-functions==1.0.4
 backcall==0.1.0
-bleach==3.1.0
+bleach==3.1.2
 cached-property==1.5.1
 certifi==2019.6.16
 chardet==3.0.4
